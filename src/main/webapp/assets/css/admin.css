@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #6f4e37; /* Marron */
+}
+
+.navbar-brand, .nav-link, .navbar-text {
+    color: #fff !important;
+}
+
+.statistic-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.statistic-card:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+.statistic-icon {
+    font-size: 40px;
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+.statistic-content h3 {
+    font-size: 36px;
+    color: #6f4e37;
+}
+
+.statistic-content p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.service-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: center;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    background-color: #6f4e37;
+    color: #fff;
+}
+
+.service-item i {
+    color: #6f4e37;
+    transition: color 0.3s;
+}
+
+.service-item:hover i {
+    color: #fff;
+}
+
+.btn-custom {
+    background-color: #6f4e37;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #5a3c2e;
+    color: #fff;
+}

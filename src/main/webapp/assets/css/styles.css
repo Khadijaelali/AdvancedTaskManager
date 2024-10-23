@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
